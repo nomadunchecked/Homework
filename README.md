@@ -16,6 +16,6 @@ I jointed SavvyCoders through a Veterans Technology Education program called Vet
 
 ### 3. Create my LinkedIn profile
 
-### 4. Apply for IT Developer position withH my current employer
+### 4. Apply for IT Developer position with my current employer
 
 Here is a [Link](https://github.com/nomadunchecked/Homework) to my Github Homework repository
