@@ -1,5 +1,5 @@
 let pizzaPlace = "Romeo's Pizza";
-let numberOfToppings = 9;
+let numberOfToppings = 12;
 console.log(pizzaPlace);
 console.log(typeof pizzaPlace);
 console.log(numberOfToppings);
@@ -12,8 +12,8 @@ if (numberOfToppings < 10) {
 } else {
   console.log("A whole lot of pizza.");
 }
-for (let i = 1; i <= numberOfToppings; i++) {
-  if (i % 2 === 0) {
-    console.log(i + " is an even number topping");
+for (let i = 2; i <= numberOfToppings; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
   }
 }
