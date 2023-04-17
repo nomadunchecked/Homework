@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>My Web Developer Journey</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#about">ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main-content">
+
+        <!-- The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning. -->
+        <div class="flex-container" id="home">
+        <div class="fit-picture">
+            <img  src="https://ca.slack-edge.com/T09CULVUZ-U04TR651W72-f9cbc9f4b95d-512" alt="Photo of the company owner">
+        </div>
+        <div id="greeting">
+          <h2></h2>Hello!</h2><br/>
+          I'm Roman Lanyak,<br />
+          a web developer<br />
+          specializing in<br />
+          advansed browser<br />
+          functionality.
+        </div>
+      </div>
+      </div>
+
+      <div class="flex-container_work" id="work">
+          <div>Here, you can see samples of my work:</div>
+          <div>
+          <ul>
+            <li> <a href="http://127.0.0.1:5501/Flexbox_Photo%20Galery_design%20your%20webpage%20so%20that%20it%20looks%20good%20on%20any%20screen%20size/Flexbox_Photo%20Galery.html"><Link>Photo Galery</Link></a></li> 
+            <li> <a href="http://127.0.0.1:5501/Nutrition%20Label/Nutrition%20Label.html"><Link>Nutrition Label</Link></a></li>
+            <li> <a href="http://127.0.0.1:5501/Rothko%20Painting/Rothko%20Painting_index.html"><Link>Rothko Painting</Link></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex-container_about" id="about">
+          <div>
+          <p>Greetings!<br />
+            Nomad Web Development was established in 2023 in San Diego, California.<br />
+            Our team consists of skilled web designers and advanced web functionality developers.<br />
+            We offer a wide range of services to include:
+          </p>
+          </div>
+          <div>
+            <ul>
+              <li>Front-end development</li>
+              <li>Back-end development</li>
+              <li>Architecture</li>
+              <li>Integration</li>
+            </ul>
+          </div>
+      </div>
+    </main>
+    
+      <footer>
+        <div class="address">
+          Nomad Web Development<br/>
+          San Diego<br/>
+          California<br/>
+          USA
+        </div>
+      </footer>
+      <script src="index.js"></script>
+  </body>
+</html>

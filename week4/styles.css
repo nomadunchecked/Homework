@@ -1,0 +1,152 @@
+* {
+      scroll-behavior: smooth;
+     
+  }
+
+  h1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #f1be32;
+    font-size: min(5vw, 1.7em);
+    text-align: center;
+    width: 50%;
+    max-width: 500px;
+    padding-left: 15px;
+  } 
+
+  /* Line above greeting */
+  h2 {
+    border-bottom: 4px solid #dfdfe2;
+  }
+
+  main {
+    padding-top: 100px;
+  }
+
+body {
+  font-family: Josefin Sans;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #1b1b32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  border-bottom: 4px solid #fdb347;
+  
+}
+
+nav {
+  width: 50%;
+  max-width: 500px;
+  height: 50px;
+  
+}
+
+nav>ul>li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav>ul>li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+li>a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav>ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+  color: white;
+  font-family: Verdana, Tahoma;
+  font-size: 30px;
+  color: white;
+}
+
+p {
+  margin-top: 5px;
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+/* Greeting is the text next to the picture */
+#greeting {
+  padding-left: 15px;
+  margin-top: 5px;
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+/* The flex container becomes flexible by setting the display property to flex: 
+The flex-direction property defines in which direction the container wants to stack the flex items.
+The row value stacks the flex items horizontally (from left to right):
+The justify-content property is used to align the flex items
+The flex-start value aligns the flex items at the beginning of the container (this is default)
+The flex-end value aligns the flex items at the end of the container  
+*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 20px auto;
+    gap: 100px;
+    
+}
+
+.flex-container_work {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  max-width: 1400px;
+  margin: 40px auto;
+  /* gap: 16px; */
+  font-size: 35px
+}
+
+.flex-container_about {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: right;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 40px auto;
+    /* gap: 16px; */
+    font-size: 35px
+}
+
+footer {
+  background-color: #2a2a40;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.address {
+  text-align: center;
+  color: #dfdfe2;
+  font-size: 20px;
+  margin-top: 12px;
+} 
