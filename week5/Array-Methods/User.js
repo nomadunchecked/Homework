@@ -259,13 +259,18 @@ let userFiles = [
 // {
 
 // create and print a list of phone numbers
-userFiles.forEach((user) =>
-  console.log(`User id ${user.id} has phone number ${user.phone}`)
-);
+userFiles.forEach((user) => console.log(`User id ${user.id} has phone number ${user.phone}`));
 
 // create and print a list of website and email pairs (pair them in a string, array, or object)
-userFiles.forEach((user) =>
-  console.log(
-    `User id ${user.id} website: ${user.website}, email address: ${user.email}`
-  )
-);
+// userFiles.forEach((user) => console.log(`User id ${user.id} website: ${user.website}, email address: ${user.email}`));
+
+let nextArray = [];
+userFiles.forEach((user) => {
+  const tv = {
+    email: user.email,
+    website: user.website,
+  };
+  nextArray.push(tv);
+});
+
+console.log(nextArray);
